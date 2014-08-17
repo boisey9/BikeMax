@@ -15,14 +15,28 @@
 		C5122BA4199E63510037ECC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BA3199E63510037ECC3 /* AppDelegate.m */; };
 		C5122BA7199E63510037ECC3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5122BA5199E63510037ECC3 /* Main_iPhone.storyboard */; };
 		C5122BAA199E63510037ECC3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5122BA8199E63510037ECC3 /* Main_iPad.storyboard */; };
-		C5122BAD199E63510037ECC3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BAC199E63510037ECC3 /* MasterViewController.m */; };
-		C5122BB0199E63510037ECC3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BAF199E63510037ECC3 /* DetailViewController.m */; };
 		C5122BB2199E63510037ECC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5122BB1199E63510037ECC3 /* Images.xcassets */; };
 		C5122BB9199E63510037ECC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5122BB8199E63510037ECC3 /* XCTest.framework */; };
 		C5122BBA199E63510037ECC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5122B93199E63510037ECC3 /* Foundation.framework */; };
 		C5122BBB199E63510037ECC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5122B97199E63510037ECC3 /* UIKit.framework */; };
 		C5122BC3199E63510037ECC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5122BC1199E63510037ECC3 /* InfoPlist.strings */; };
 		C5122BC5199E63510037ECC3 /* SpinningAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BC4199E63510037ECC3 /* SpinningAppTests.m */; };
+		C5122BD0199E63510037ECC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BCF199E63510037ECC3 /* ViewController.m */; };
+		C5122BDB199E63510037ECC3 /* ViewCourses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD1199E63510037ECC3 /* ViewCourses@2x.png */; };
+		C5122BDC199E63510037ECC3 /* ViewCourses.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD2199E63510037ECC3 /* ViewCourses.png */; };
+		C5122BDD199E63510037ECC3 /* SideMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD3199E63510037ECC3 /* SideMenu@2x.png */; };
+		C5122BDE199E63510037ECC3 /* StartBikeMax@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD4199E63510037ECC3 /* StartBikeMax@2x.png */; };
+		C5122BDF199E63510037ECC3 /* StartBikeMax.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD5199E63510037ECC3 /* StartBikeMax.png */; };
+		C5122BE0199E63510037ECC3 /* SideMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD6199E63510037ECC3 /* SideMenu.png */; };
+		C5122BE1199E63510037ECC3 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD7199E63510037ECC3 /* Logo@2x.png */; };
+		C5122BE2199E63510037ECC3 /* AppBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD8199E63510037ECC3 /* AppBackGround@2x.png */; };
+		C5122BE3199E63510037ECC3 /* AppBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BD9199E63510037ECC3 /* AppBackGround.png */; };
+		C5122BE4199E63510037ECC3 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BDA199E63510037ECC3 /* Logo.png */; };
+		C5122BE8199E63510037ECC3 /* IntensityCollectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BE7199E63510037ECC3 /* IntensityCollectionViewViewController.m */; };
+		C5122BEB199E63510037ECC3 /* CourseListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5122BEA199E63510037ECC3 /* CourseListTableViewController.m */; };
+		C5122BF5199E63510037ECC3 /* IconIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BF4199E63510037ECC3 /* IconIphone.png */; };
+		C5122BFC199E63510037ECC3 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BFA199E63510037ECC3 /* Splash.png */; };
+		C5122BFD199E63510037ECC3 /* Splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5122BFB199E63510037ECC3 /* Splash@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +62,31 @@
 		C5122BA3199E63510037ECC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C5122BA6199E63510037ECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C5122BA9199E63510037ECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C5122BAB199E63510037ECC3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C5122BAC199E63510037ECC3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C5122BAE199E63510037ECC3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C5122BAF199E63510037ECC3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C5122BB1199E63510037ECC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5122BB7199E63510037ECC3 /* SpinningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5122BB8199E63510037ECC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C5122BC0199E63510037ECC3 /* SpinningAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinningAppTests-Info.plist"; sourceTree = "<group>"; };
 		C5122BC2199E63510037ECC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5122BC4199E63510037ECC3 /* SpinningAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinningAppTests.m; sourceTree = "<group>"; };
+		C5122BCE199E63510037ECC3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		C5122BCF199E63510037ECC3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C5122BD1199E63510037ECC3 /* ViewCourses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ViewCourses@2x.png"; sourceTree = "<group>"; };
+		C5122BD2199E63510037ECC3 /* ViewCourses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewCourses.png; sourceTree = "<group>"; };
+		C5122BD3199E63510037ECC3 /* SideMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SideMenu@2x.png"; sourceTree = "<group>"; };
+		C5122BD4199E63510037ECC3 /* StartBikeMax@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBikeMax@2x.png"; sourceTree = "<group>"; };
+		C5122BD5199E63510037ECC3 /* StartBikeMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartBikeMax.png; sourceTree = "<group>"; };
+		C5122BD6199E63510037ECC3 /* SideMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu.png; sourceTree = "<group>"; };
+		C5122BD7199E63510037ECC3 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		C5122BD8199E63510037ECC3 /* AppBackGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppBackGround@2x.png"; sourceTree = "<group>"; };
+		C5122BD9199E63510037ECC3 /* AppBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBackGround.png; sourceTree = "<group>"; };
+		C5122BDA199E63510037ECC3 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		C5122BE6199E63510037ECC3 /* IntensityCollectionViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntensityCollectionViewViewController.h; sourceTree = "<group>"; };
+		C5122BE7199E63510037ECC3 /* IntensityCollectionViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntensityCollectionViewViewController.m; sourceTree = "<group>"; };
+		C5122BE9199E63510037ECC3 /* CourseListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListTableViewController.h; sourceTree = "<group>"; };
+		C5122BEA199E63510037ECC3 /* CourseListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewController.m; sourceTree = "<group>"; };
+		C5122BF4199E63510037ECC3 /* IconIphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconIphone.png; sourceTree = "<group>"; };
+		C5122BFA199E63510037ECC3 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		C5122BFB199E63510037ECC3 /* Splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +116,7 @@
 		C5122B87199E63510037ECC3 = {
 			isa = PBXGroup;
 			children = (
+				C5122BE5199E63510037ECC3 /* HomePage Images */,
 				C5122B99199E63510037ECC3 /* SpinningApp */,
 				C5122BBE199E63510037ECC3 /* SpinningAppTests */,
 				C5122B92199E63510037ECC3 /* Frameworks */,
@@ -117,14 +147,16 @@
 		C5122B99199E63510037ECC3 /* SpinningApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5122BE6199E63510037ECC3 /* IntensityCollectionViewViewController.h */,
+				C5122BE7199E63510037ECC3 /* IntensityCollectionViewViewController.m */,
+				C5122BE9199E63510037ECC3 /* CourseListTableViewController.h */,
+				C5122BEA199E63510037ECC3 /* CourseListTableViewController.m */,
+				C5122BCE199E63510037ECC3 /* ViewController.h */,
+				C5122BCF199E63510037ECC3 /* ViewController.m */,
 				C5122BA2199E63510037ECC3 /* AppDelegate.h */,
 				C5122BA3199E63510037ECC3 /* AppDelegate.m */,
 				C5122BA5199E63510037ECC3 /* Main_iPhone.storyboard */,
 				C5122BA8199E63510037ECC3 /* Main_iPad.storyboard */,
-				C5122BAB199E63510037ECC3 /* MasterViewController.h */,
-				C5122BAC199E63510037ECC3 /* MasterViewController.m */,
-				C5122BAE199E63510037ECC3 /* DetailViewController.h */,
-				C5122BAF199E63510037ECC3 /* DetailViewController.m */,
 				C5122BB1199E63510037ECC3 /* Images.xcassets */,
 				C5122B9A199E63510037ECC3 /* Supporting Files */,
 			);
@@ -158,6 +190,26 @@
 				C5122BC1199E63510037ECC3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5122BE5199E63510037ECC3 /* HomePage Images */ = {
+			isa = PBXGroup;
+			children = (
+				C5122BFA199E63510037ECC3 /* Splash.png */,
+				C5122BFB199E63510037ECC3 /* Splash@2x.png */,
+				C5122BF4199E63510037ECC3 /* IconIphone.png */,
+				C5122BD1199E63510037ECC3 /* ViewCourses@2x.png */,
+				C5122BD2199E63510037ECC3 /* ViewCourses.png */,
+				C5122BD3199E63510037ECC3 /* SideMenu@2x.png */,
+				C5122BD4199E63510037ECC3 /* StartBikeMax@2x.png */,
+				C5122BD5199E63510037ECC3 /* StartBikeMax.png */,
+				C5122BD6199E63510037ECC3 /* SideMenu.png */,
+				C5122BD7199E63510037ECC3 /* Logo@2x.png */,
+				C5122BD8199E63510037ECC3 /* AppBackGround@2x.png */,
+				C5122BD9199E63510037ECC3 /* AppBackGround.png */,
+				C5122BDA199E63510037ECC3 /* Logo.png */,
+			);
+			name = "HomePage Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +259,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					C5122B8F199E63510037ECC3 = {
+						DevelopmentTeam = 6527TG2TR7;
+					};
 					C5122BB6199E63510037ECC3 = {
 						TestTargetID = C5122B8F199E63510037ECC3;
 					};
@@ -236,10 +291,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5122BDD199E63510037ECC3 /* SideMenu@2x.png in Resources */,
+				C5122BE1199E63510037ECC3 /* Logo@2x.png in Resources */,
+				C5122BE2199E63510037ECC3 /* AppBackGround@2x.png in Resources */,
 				C5122BAA199E63510037ECC3 /* Main_iPad.storyboard in Resources */,
+				C5122BDC199E63510037ECC3 /* ViewCourses.png in Resources */,
 				C5122BB2199E63510037ECC3 /* Images.xcassets in Resources */,
 				C5122BA7199E63510037ECC3 /* Main_iPhone.storyboard in Resources */,
+				C5122BE0199E63510037ECC3 /* SideMenu.png in Resources */,
+				C5122BFC199E63510037ECC3 /* Splash.png in Resources */,
+				C5122BE4199E63510037ECC3 /* Logo.png in Resources */,
+				C5122BE3199E63510037ECC3 /* AppBackGround.png in Resources */,
+				C5122BDB199E63510037ECC3 /* ViewCourses@2x.png in Resources */,
+				C5122BF5199E63510037ECC3 /* IconIphone.png in Resources */,
 				C5122B9E199E63510037ECC3 /* InfoPlist.strings in Resources */,
+				C5122BDF199E63510037ECC3 /* StartBikeMax.png in Resources */,
+				C5122BDE199E63510037ECC3 /* StartBikeMax@2x.png in Resources */,
+				C5122BFD199E63510037ECC3 /* Splash@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5122BD0199E63510037ECC3 /* ViewController.m in Sources */,
+				C5122BEB199E63510037ECC3 /* CourseListTableViewController.m in Sources */,
 				C5122BA4199E63510037ECC3 /* AppDelegate.m in Sources */,
-				C5122BAD199E63510037ECC3 /* MasterViewController.m in Sources */,
 				C5122BA0199E63510037ECC3 /* main.m in Sources */,
-				C5122BB0199E63510037ECC3 /* DetailViewController.m in Sources */,
+				C5122BE8199E63510037ECC3 /* IntensityCollectionViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpinningApp/SpinningApp-Prefix.pch";
 				INFOPLIST_FILE = "SpinningApp/SpinningApp-Info.plist";
@@ -409,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpinningApp/SpinningApp-Prefix.pch";
 				INFOPLIST_FILE = "SpinningApp/SpinningApp-Info.plist";
@@ -476,6 +547,7 @@
 				C5122BCA199E63510037ECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5122BCB199E63510037ECC3 /* Build configuration list for PBXNativeTarget "SpinningAppTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +556,7 @@
 				C5122BCD199E63510037ECC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
